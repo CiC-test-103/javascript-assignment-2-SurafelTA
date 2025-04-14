@@ -26,7 +26,7 @@ class Account {
     // Method to deposit money into the account
     deposit(amount) {
         this.balance += amount;
-        this.transactionHistory.push({transactionType: 'Deposit, amount'}); //Record the deposit transaction
+        this.transactionHistory.push({transactionType: 'Deposit', amount}); //Record the deposit transaction
     }
 
     //Method to withdraw money from the account
